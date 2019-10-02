@@ -1,0 +1,104 @@
+.home-newsletter {
+padding: 60px 0;
+background: #EDB000;
+}
+.home-newsletter .single {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.home-newsletter .single h2 {
+font-size: 22px;
+color: white;
+text-transform: uppercase;
+margin-bottom: 40px; }
+.home-newsletter .single .form-control {
+height: 50px;
+background: rgba(255, 255, 255, 0.6);
+border-color: transparent;
+border-radius: 20px 0 0 20px; }
+.home-newsletter .single .form-control:focus {
+box-shadow: none;
+border-color: #243c4f; }
+.home-newsletter .single .btn {
+min-height: 50px; 
+border-radius: 0 20px 20px 0;
+background: #243c4f;
+color: #fff;
+}
+.navbar-brand {
+    height: auto;
+    width: auto;
+    max-height: 50px;
+    max-width: 250px;
+}
+#company-name {
+	color: #e5ae04;
+	font-size: 30px;
+	font-family: "Josefin Sans"
+}
+.product-container{
+	padding: 40px 0;
+}
+#tag-line {
+	font-weight: 900;
+}
+.doggo {
+	height: 400px;
+	width: 300px;
+}
+.tag-line-2{
+	font-weight: 900;
+}
+html * {
+	font-family: "Montserrat";
+}
+.footer-font{
+	color: #595d63;
+}
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+section #services h2 {
+  margin: 20px 0px 20px;
+  color: #fff;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+section #services li {
+  width: 60;
+  height: 70;
+  display: inline-block;
+  margin: 10px;
+  list-style: none;
+}
+section #services li div {
+  width: 60;
+  height: 60;
+  color: #74d4b3;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 120px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+section #services li a {
+  color: #e5ae04;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+section #services li span {
+  width: 120px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
