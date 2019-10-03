@@ -57,6 +57,10 @@ color: #fff;
 html * {
 	font-family: "Montserrat";
 }
+html, body {
+    margin: 0;
+    height: 100%;
+}
 .footer-font{
 	color: #595d63;
 }
@@ -164,4 +168,46 @@ section #services li span {
 }
 .headlines{
 	color: #e5ae04;
+}
+
+@media screen and (max-width: 1020px) {
+  #container, #header, #content, #footer {
+    float: none;
+    width: auto;
+  }
+ #subtitle, #share, #slider, #sidebar{
+    display:none;
+  }
+  p{ 
+  	font-size: 2em;
+  }
+  #company-name{
+  	font-size: 3em;
+  }
+  .mobile-important{
+  	font-size: 3em;
+  }
+  h1{
+  	font-size: 3em;
+  }
+  h4{
+  	font-size: 2em;
+  }
+  h3{
+  	font-size: 2em;
+  }
+}
+.image-frame-1{
+	/*background: #EDB000;*/
+	/*background-image: url("doggo.jpg");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
