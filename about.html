@@ -27,10 +27,10 @@
 	    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
 	        <ul class="navbar-nav ml-auto">
 	            <li class="nav-item">
-	                <a class="nav-link" href="about.html">About</a>
+	                <a class="nav-link nav-sides" href="about.html">About</a>
 	            </li>
 	            <li class="nav-item">
-	                <a class="nav-link" href="#">Our Journey</a>
+	                <a class="nav-link nav-sides" href="#">Our Journey</a>
 	            </li>
 	        </ul>
 	    </div>
@@ -84,16 +84,23 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="single">
-						<h2 id="company-name">Get Your Productivity Back</h2>
-						<h5>Discover what it takes to be productive</h5>
+						<h2 class="mobile-important" id="company-name">Get Your Productivity Back</h2>
+						<h5 class="mobile-important">Discover what it takes to be productive</h5>
 							<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeK1dAk-X6NUrtPsIfrh0U_qGrpONSkLt4WFY5MnBeexRNdSw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 							<div class="input-group">
-					         	<input type="email" class="form-control" placeholder="Enter your email address for early access" name="entry.153519505" id="entry.153519505">
+					         	<input type="email" class="form-control subscribe" placeholder="Enter your email address for early access" name="entry.153519505" id="entry.153519505">
 					         	<span class="input-group-btn">
-					         	<button class="btn btn-theme" type="submit" value="Submit">Request an Invite</button>
+					         	<button class="btn btn-theme subscribe" type="submit" value="Submit">Request an Invite</button>
 					         	</span>
 					         </div>
-					     </form>
+
+					         	<div class="container">
+					         		<input type="email" class="form-control subscribe-mobile-1" placeholder="Enter your email address for early access" name="entry.153519505" id="entry.153519505">
+					         	</div>
+					         	<div class="container">
+					         		<button class="btn btn-theme subscribe-mobile-2" type="submit" value="Submit">Request an Invite</button>
+					         	</div>
+					     	</form>
 
 					     <!-- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe> -->
 						</div>

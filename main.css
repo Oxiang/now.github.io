@@ -1,5 +1,5 @@
 .home-newsletter {
-	padding: 250px 0;
+	padding: 100px 0;
 	/*background: #EDB000;*/
 	background-image: url("background.jpg");
 	background-repeat: no-repeat;
@@ -111,7 +111,7 @@ section #services li span {
   text-align: center;
 }
 .explanation{
-	padding: 80px 0;
+	padding: 50px 0;
 }
 .distraction {
 	padding: 250px 0;
@@ -169,7 +169,14 @@ section #services li span {
 .headlines{
 	color: #e5ae04;
 }
-
+.subscribe-mobile-1 {
+	font-size: 2em;
+	visibility: hidden;
+}
+.subscribe-mobile-2 {
+	font-size: 2em;
+	visibility: hidden;
+}
 @media screen and (max-width: 1020px) {
   #container, #header, #content, #footer {
     float: none;
@@ -188,13 +195,28 @@ section #services li span {
   	font-size: 3em;
   }
   h1{
-  	font-size: 3em;
+  	font-size: 2em;
   }
   h4{
   	font-size: 2em;
   }
   h3{
   	font-size: 2em;
+  }
+  .subscribe{
+  	font-size: 2em;
+  	display: none;
+  }
+  .nav-sides{
+  	font-size: 2em;
+  }
+  .subscribe-mobile-1{
+  	font-size: 2em;
+  	visibility: visible;
+  }
+  .subscribe-mobile-2{
+  	font-size: 2em;
+  	visibility: visible;
   }
 }
 .image-frame-1{
