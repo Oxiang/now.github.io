@@ -1,6 +1,9 @@
 .home-newsletter {
-padding: 60px 0;
-background: #EDB000;
+	padding: 250px 0;
+	/*background: #EDB000;*/
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .home-newsletter .single {
 max-width: 650px;
@@ -30,19 +33,19 @@ color: #fff;
 .navbar-brand {
     height: auto;
     width: auto;
-    max-height: 50px;
-    max-width: 250px;
+    max-height: 45px;
+    max-width: 40px;
 }
 #company-name {
 	color: #e5ae04;
-	font-size: 30px;
+	font-size: 25px;
 	font-family: "Josefin Sans"
 }
 .product-container{
 	padding: 40px 0;
 }
 #tag-line {
-	font-weight: 900;
+	/*font-weight: 900;*/
 }
 .doggo {
 	height: 400px;
@@ -101,4 +104,60 @@ section #services li span {
   text-transform: uppercase;
   font-size: 1.2em;
   text-align: center;
+}
+.explanation{
+	padding: 80px 0;
+}
+.distraction {
+	padding: 250px 0;
+	/*background: #EDB000;*/
+	background-image: url("distraction.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.first-layer {
+	padding: 250px 0;
+}
+.technique{
+	padding: 250px 0 0 0;
+}
+.pomodoro {
+	padding: 100px 0;
+	/*background: #EDB000;*/
+	background-image: url("time.jpg");
+	background-repeat: no-repeat;
+	background-size: cover ;
+}
+.step-1 {
+	padding: 250px 0;
+	/*background: #EDB000;*/
+	background-image: url("work.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.step-2 {
+	padding: 250px 0;
+	/*background: #EDB000;*/
+	background-image: url("break.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.step-3 {
+	padding: 250px 0;
+	/*background: #EDB000;*/
+	background-image: url("repeat.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*.steps:hover{
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}*/
+.whiten{
+	background-color: #03c2fc;
+	color: #ffffff;
 }
