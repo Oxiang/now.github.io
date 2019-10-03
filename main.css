@@ -163,7 +163,7 @@ section #services li span {
     transition: all 1s ease;
 }*/
 .whiten{
-	background-color: #03c2fc;
+	/*background-color: #03c2fc;*/
 	color: #ffffff;
 }
 .headlines{
@@ -193,6 +193,9 @@ section #services li span {
   }
   .mobile-important{
   	font-size: 3em;
+  }
+  h2{
+  	font-size: 2em;
   }
   h1{
   	font-size: 2em;
@@ -232,4 +235,15 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+}
+.overlay{
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(3, 194, 252,0.6); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
 }
