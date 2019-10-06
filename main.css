@@ -188,6 +188,9 @@ section #services li span {
   p{ 
   	font-size: 2em;
   }
+  p#smaller{
+    font-size: 1.5em;
+  }
   #company-name{
   	font-size: 3em;
   }
@@ -201,7 +204,7 @@ section #services li span {
   	font-size: 2em;
   }
   h4{
-  	font-size: 2em;
+  	font-size: 1.5em;
   }
   h3{
   	font-size: 2em;
@@ -223,8 +226,8 @@ section #services li span {
   }
 }
 .image-frame-1{
-	/*background: #EDB000;*/
-	/*background-image: url("doggo.jpg");*/
+/*	background: #EDB000;*/
+	background-image: url("doggo.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -246,4 +249,25 @@ html,body
   background-color: rgba(3, 194, 252,0.6); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
+}
+.image-cropper {
+  padding: 5px;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  /*margin-left: -25%; //centers the image*/
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+.avatarMentor {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+.wrapper {
+    text-align: center;
 }
