@@ -1,9 +1,16 @@
 .home-newsletter {
-	padding: 100px 0;
+	padding: 200px 0;
 	/*background: #EDB000;*/
 	background-image: url("background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+.home-newsletter_1 {
+  padding: 100px 0;
+  /*background: #EDB000;*/
+  background-image: url("productive_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .home-newsletter .single {
 max-width: 650px;
@@ -30,6 +37,31 @@ border-radius: 0 20px 20px 0;
 background: #243c4f;
 color: #fff;
 }
+.home-newsletter_1 .single {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.home-newsletter_1 .single h2 {
+font-size: 22px;
+color: white;
+text-transform: uppercase;
+margin-bottom: 40px; }
+.home-newsletter_1 .single .form-control {
+height: 50px;
+background: rgba(255, 255, 255, 0.6);
+border-color: transparent;
+border-radius: 20px 0 0 20px; }
+.home-newsletter_1 .single .form-control:focus {
+box-shadow: none;
+border-color: #243c4f; }
+.home-newsletter_1 .single .btn {
+min-height: 50px; 
+border-radius: 0 20px 20px 0;
+background: #243c4f;
+color: #fff;
+}
 .navbar-brand {
     height: auto;
     width: auto;
@@ -39,7 +71,7 @@ color: #fff;
 #company-name {
 	color: #e5ae04;
 	font-size: 25px;
-	font-family: "Josefin Sans"
+	font-family: "Montserrat"
 }
 .product-container{
 	padding: 40px 0;
@@ -61,10 +93,11 @@ html, body {
     margin: 0;
     height: 100%;
 }
+body { padding-top: 70px; }
 .footer-font{
 	color: #595d63;
 }
-section #services {
+/*section #services {
   text-align: center;
   transform: translatez(0);
 }
@@ -94,24 +127,21 @@ section #services li div {
 }
 section #services li a {
   /*color: #e5ae04;*/
-  color: #595d63;
+/*  color: #595d63;
+}*/
+.contact-info-li {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+  list-style: none;
 }
-section #services li div:hover {
-  transform: rotate(360deg);
-  border-radius: 100px;
-}
-section #services li span {
-  width: 120px;
-  height: 20px;
-  display: block;
-  padding: 15px 0px;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 1.2em;
+.contact-info-li div {
+  font-size: 3.4em;
   text-align: center;
 }
 .explanation{
-	padding: 50px 0;
+	padding: 250px 0 0 0;
 }
 .distraction {
 	padding: 250px 0;
@@ -177,6 +207,9 @@ section #services li span {
 	font-size: 2em;
 	visibility: hidden;
 }
+#sign-up{
+  color: #ffffff;
+}
 @media screen and (max-width: 1020px) {
   #container, #header, #content, #footer {
     float: none;
@@ -191,17 +224,17 @@ section #services li span {
   p#smaller{
     font-size: 1.5em;
   }
-  #company-name{
+/*  #company-name{
   	font-size: 3em;
-  }
-  .mobile-important{
+  }*/
+ /* .mobile-important{
   	font-size: 3em;
-  }
+  }*/
   h2{
   	font-size: 2em;
   }
   h1{
-  	font-size: 2em;
+  	font-size: 3em;
   }
   h4{
   	font-size: 1.5em;
@@ -223,6 +256,27 @@ section #services li span {
   .subscribe-mobile-2{
   	font-size: 2em;
   	visibility: visible;
+  }
+  #sign-up{
+    visibility: hidden;
+  }
+  .home-newsletter_1 .single .btn {
+    min-height: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background: #243c4f;
+    color: #fff;
+  }
+  .home-newsletter_1 .single .form-control {
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+    border-radius: 10px 10px 10px 10px; 
+    }
+  #company-name {
+    color: #e5ae04;
+    font-size: 25px;
+    font-family: "Montserrat";
+    font-size: 3em;
   }
 }
 .image-frame-1{
@@ -270,4 +324,14 @@ html,body
 }
 .wrapper {
     text-align: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+.resizing{
+  height: 50px;
+  width: 50px;
+}
+input{
+   text-align:center;
 }
