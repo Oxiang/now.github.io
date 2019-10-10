@@ -140,7 +140,7 @@ section #services li a {
   font-size: 3.4em;
   text-align: center;
 }
-.explanation{
+.explanation-webpage{
 	padding: 250px 0 0 0;
 }
 .distraction {
@@ -153,7 +153,7 @@ section #services li a {
 .first-layer {
 	padding: 250px 0;
 }
-.technique{
+.technique-webpage{
 	padding: 250px 0 0 0;
 }
 .pomodoro {
@@ -201,15 +201,35 @@ section #services li a {
 }
 .subscribe-mobile-1 {
 	font-size: 2em;
-	visibility: hidden;
+	/*visibility: hidden;*/
+  display: none;
 }
 .subscribe-mobile-2 {
 	font-size: 2em;
-	visibility: hidden;
+	/*visibility: hidden;*/
+  display: none;
 }
 #sign-up{
   color: #ffffff;
 }
+.explanation-mobile{
+  padding: 250px 0;
+  display: none;
+}
+.technique-mobile{
+  padding: 250px 0;
+  display: none;
+}
+.product-mobile{
+  display: none;
+}
+.about-mobile{
+  display: none;
+}
+
+
+
+
 @media screen and (max-width: 1020px) {
   #container, #header, #content, #footer {
     float: none;
@@ -244,21 +264,25 @@ section #services li a {
   }
   .subscribe{
   	font-size: 2em;
-  	display: none;
+  	/*display: none;*/
+    display: none;
   }
   .nav-sides{
   	font-size: 2em;
   }
   .subscribe-mobile-1{
   	font-size: 2em;
-  	visibility: visible;
+  	/*visibility: visible;*/
+    display: inline-block;
   }
   .subscribe-mobile-2{
   	font-size: 2em;
-  	visibility: visible;
+  	/*visibility: visible;*/
+    display: inline-block;
   }
   #sign-up{
-    visibility: hidden;
+    /*visibility: hidden;*/
+    display: none;
   }
   .home-newsletter_1 .single .btn {
     min-height: 50px;
@@ -278,7 +302,39 @@ section #services li a {
     font-family: "Montserrat";
     font-size: 3em;
   }
+  .explanation-webpage{
+    display: none;
+  }
+  .explanation-mobile{
+    padding: 200px 0 0 0;
+    display: inline-block;
+  }
+  .technique-webpage{
+    display: none;
+  }
+  .technique-mobile{
+    padding: 200px 0 0 0;
+    display: inline-block;
+  }
+  .product-webpage{
+    display: none;
+  }
+  .product-mobile{
+    padding: 0 0 200px 0;
+    display: inline-block;
+  }
+  .about-webpage{
+    display: none;
+  }
+  .about-mobile{
+    padding: 200px 0;
+    display: inline-block;
+  }
 }
+
+
+
+
 .image-frame-1{
 /*	background: #EDB000;*/
 	background-image: url("doggo.jpg");
@@ -334,4 +390,46 @@ html,body
 }
 input{
    text-align:center;
+}
+#btchello_bar{
+background:#CC3300;
+width:100%;
+margin:0px auto 0px auto;
+text-align:center;
+padding:5px 0;
+box-shadow: #666666 0px 1px 3px;
+z-index: 9998;
+height: 70px;
+position:fixed;
+line-height: 1.85em;
+vertical-align: baseline;
+letter-spacing: 1px;
+text-decoration:none;
+color:#fff;
+font-size:15px;
+font-weight:none;
+line-height: 24px;
+border-top:0px solid #000;
+border-bottom:0px solid #000;
+}
+#btchello_bar a{
+text-decoration:none;
+color:#FFFFFF;
+font-size:12px;
+font-weight:bold;
+font-family: Cambria;
+line-height: 24px;
+}
+#btchello_bar a:hover{
+text-decoration:none;
+}
+#btchello_bar p {margin:0; list-style:none;}
+#btchello_bar img {vertical-align: middle;
+margin-right: 6px;}
+#hello-bar-form {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  border-color: transparent;
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
 }
