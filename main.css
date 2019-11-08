@@ -77,7 +77,9 @@ color: #fff;
 #company-name {
 	color: #e5ae04;
 	font-size: 25px;
-	font-family: "JosefinSans-Light"
+	/*font-family: "JosefinSans-Light"*/
+  font-family: "josefin_sanslight";
+  
 }
 .product-container{
 	padding: 40px 0;
@@ -169,7 +171,8 @@ section #services li a {
   width: auto;
 	/*background: #EDB000;*/
 	/*background-image: url("distraction.jpg");*/
-  background-image: url("product_shot.png");
+  /*background-image: url("product_shot.png");*/
+  background-image: url("prototype_2.png");
 	background-repeat: no-repeat;
 	/*background-size: cover;*/
   background-size: contain;
@@ -209,7 +212,8 @@ section #services li a {
 }
 .product-label{
   height: 500px;
-  background-image: url("Product Label Lines Black.svg");
+  /*background-image: url("Product Label Lines Black.svg");*/
+  background-image: url("prototype_label.png");
   background-repeat: no-repeat;
   /*background-size: cover;*/
   background-size: contain;
@@ -470,7 +474,8 @@ line-height: 24px;
   #company-name {
     color: #e5ae04;
     font-size: 25px;
-    font-family: "JosefinSans-Light";
+    /*font-family: "JosefinSans-Light";*/
+    font-family: "josefin_sanslight";
     font-size: 3em;
   }
   .explanation-webpage{
@@ -600,4 +605,12 @@ input{
   margin: auto;  /* Magic! */
   max-width: 100%;
   max-height: 100%;
+}
+@font-face {
+    font-family: 'josefin_sanslight';
+    src: url('josefinsans-light-webfont.woff2') format('woff2'),
+         url('josefinsans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
