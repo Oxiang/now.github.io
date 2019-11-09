@@ -298,6 +298,22 @@ section #services li a {
   background-size: cover ;
   margin: 5px;
 }
+.team_5 {
+  padding: 200px 0;
+  /*background: #EDB000;*/
+  background-image: url("team_5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover ;
+  margin: 5px;
+}
+.team_6 {
+  padding: 200px 0;
+  /*background: #EDB000;*/
+  background-image: url("team_6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover ;
+  margin: 5px;
+}
 /*.steps:hover{
     -webkit-filter: brightness(70%);
     -webkit-transition: all 1s ease;
