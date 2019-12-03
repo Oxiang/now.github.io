@@ -172,7 +172,8 @@ section #services li a {
 	/*background: #EDB000;*/
 	/*background-image: url("distraction.jpg");*/
   /*background-image: url("product_shot.png");*/
-  background-image: url("prototype_2_logo.png");
+  /*background-image: url("prototype_2_logo.png");*/
+  background-image: url("prototype_3.jpg");
 	background-repeat: no-repeat;
 	/*background-size: cover;*/
   background-size: contain;
@@ -213,7 +214,8 @@ section #services li a {
 .product-label{
   height: 500px;
   /*background-image: url("Product Label Lines Black.svg");*/
-  background-image: url("prototype_2_logo_label.png");
+  /*background-image: url("prototype_2_logo_label.png");*/
+  background-image: url("prototype_3_edit.png");
   background-repeat: no-repeat;
   /*background-size: cover;*/
   background-size: contain;
