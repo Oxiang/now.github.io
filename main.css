@@ -247,6 +247,9 @@ section #services li a {
 	background-repeat: no-repeat;
 	background-size: cover ;
 }
+.kickstarter {
+  padding: 100px 0;
+}
 .step-1 {
 	padding: 250px 0;
 	/*background: #EDB000;*/
